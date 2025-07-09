@@ -12,5 +12,5 @@ resource " storage_account" "example" {
 
 resource "azuread_resource_group" "example1" {
   name     = "example-resources2"
-  location = "West Europe"
+  location = "eastus"
 }
