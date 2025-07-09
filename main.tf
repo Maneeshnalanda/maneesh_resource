@@ -9,3 +9,8 @@ resource " storage_account" "example" {
   account_tier             = "Standard"
   account_replication_type = "LRS"
 }
+
+resource "azuread_resource_group" "example1" {
+  name     = "example-resources2"
+  location = "eastus"
+}
